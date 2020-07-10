@@ -3,5 +3,6 @@ For start
 2) Open the terminal of git 
 3) ### 'git init'
 4) ### 'git clone git@github.com:murad-narimanli/booklist.git'
-5) ### 'npm install'
-6) ### 'npm start'
+5) ### 'cd booklist'
+6) ### 'npm install'
+7) ### 'npm start'
