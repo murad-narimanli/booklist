@@ -1,0 +1,94 @@
+body {
+  background: #63cdda;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  background: #226ab3;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  padding: 10px;
+  color: #eeeeee;
+  border-radius: 10px;
+}
+
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #e77f67;
+}
+.navbar h1{
+  margin :10px 0;
+}
+
+.booklist{
+  margin: 20px;
+}
+.booklist ul{
+  padding: 0;
+  list-style-type: none;
+}
+.booklist ul li {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+ border-radius: 4px;
+  background: #cf6a87;
+}
+.btn{
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.empty{
+  padding: 10px;
+  text-align: center;
+  background:#cf6a87 ;
+  margin: 10px;
+}
+.message{
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  padding: 10px 30px;
+  display: grid;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  background: white;
+}
+
+.alertify-notifier .ajs-message{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding: 20px;
+  font-size: 19px;
+}
